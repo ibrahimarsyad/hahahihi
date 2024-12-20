@@ -10,7 +10,7 @@ private:
     double harga_satuan; //Harga satuan barang
     int jumlah_barang; //Jumlah barang yang dibeli
     
-	//Fungsi untuk validasi harga satuan harus berupa bilangan dan positif
+    //Fungsi untuk validasi harga satuan harus berupa bilangan dan positif
     double input_harga_satuan() {
         double harga;
         while (true) {
